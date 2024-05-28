@@ -11,5 +11,7 @@ public class Hook  {
     public void setUp() throws Exception {
         Driver.getDriver().get(ConfigReader.getProperty("URL"));
 
+
+
     }
 }
