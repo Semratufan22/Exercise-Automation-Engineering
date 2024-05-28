@@ -57,6 +57,10 @@ public class PageOfGungor {
     @FindBy(xpath = "//input[@id='newsletter']") public WebElement newsLetterCheckbox;
     @FindBy(xpath = "//input[@id='optin']") public WebElement optinCheckbox;
     @FindBy(xpath = "//button[text()='Create Account']") public WebElement createAccount;
+    @FindBy(xpath = "//button[text()='Create Account']") public WebElement createAccount1;
+    @FindBy(xpath = "//button[text()='Create Account']") public WebElement createAccount2;
+    @FindBy(xpath = "//button[text()='Create Account']") public WebElement createAccount3;
+    @FindBy(xpath = "//button[text()='Create Account']") public WebElement createAccount4;
 
 
 
